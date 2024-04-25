@@ -26,8 +26,10 @@ int main()
 	int ori_arr[5] = { 5, 4, 3, 2, 1 };
 
 	reverse(ori_arr);
-
-	cout << ori_arr[0];
+	for (int i = 0; i < 4; i++)
+	{
+		cout << ori_arr[i];
+	}
 
 	return 0;
 }
