@@ -7,8 +7,8 @@ using namespace std;
 int main() 
 {
 	int n;
-	int sum = 0;
-	int avg;
+	float sum = 0;
+	float avg;
 
 	cout << "학생 수를 입력하세요 : ";
 	cin >> n;
