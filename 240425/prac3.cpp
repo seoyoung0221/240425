@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-void reverse(int *x)
+void reverse(int* x)
 {
 	int new_arr[5] = { 0, 0, 0, 0, 0 };
 	for (int i = 0; i < 5; i++)
