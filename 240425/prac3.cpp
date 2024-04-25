@@ -14,8 +14,6 @@ void reverse(int *x)
 	{
 		*(x + i) = new_arr[i];
 	}
-	cout << *x;
-	cout << endl;
 
 }
 
@@ -26,7 +24,7 @@ int main()
 	int ori_arr[5] = { 5, 4, 3, 2, 1 };
 
 	reverse(ori_arr);
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < 5; i++)
 	{
 		cout << ori_arr[i];
 	}
